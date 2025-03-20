@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>HTML Lists, Images,Tables &Forms</title>
+        </head>
+        <body>
+            <h1>HTML Lists</h1>
+            <h3>Ordered Lists</h3>
+            <ol type="i" start="1">
+                <li>Software Engineering</li>
+                <li>Web Develpment</li>
+                <li>Python</li>
+                <li>Database</li>
+                <li>Start up Building></li>
+            </o1>
+            <h3>Un-ordered Lists</h3>
+            <ul type="circle">
+                <li>Mr. Chakin</li>
+                <li>Miss. Susan</li>
+                <li>Mr.Eddy</li>
+                <li>Mr. Gerald</li>
+                <li>Miss Nelly</li>
+            </ul>
+            <h3>Definition Lists</h3>
+            <dl>
+                <dt>HTML</dt>
+                <dd>Hyper Text Markup Language</dd>
+                <dt>SQL</dt>
+                <dd>Structured Query Language</dd>
+                
+            </dl>
+            <h1>HTML Images</h1>
+            <img src="https://images.pexels.com/photos/31151452/pexels-photo-31151452/free-photo-of-rustic-cabin-with-alpacas-in-mountain-landscape.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="image of house"width="350" height="550">
+            <h1>HTML Tables</h1>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Country</th>
+
+                    </tr>
+
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Eddy</td>
+                        <td>eddy@powerlearnproject.org</td>
+                        <td>Kenya</td>
+                    </tr>
+                    <tr>
+                        <td>Gerald</td>
+                        <td>gerald@powerlearnprojectafrica.org</td>
+                        <td>South Africa</td>
+                    </tr>
+                    <tr>
+                        <td>Charles</td>
+                        <td>charles@powerlearnprojectafrica.org</td>
+                        <td>Kenya</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Country</th>
+                    </tr>
+                </tfoot>
+            </table>
+            <h1>HTML Forms</h1>
+            <form action=""method="">
+                <label for="name"></label>
+                <input type="text" id="student name" name="student_name" required>
+                <br><br>
+                <label for="gender"></label>
+                <input type="radio" id="gender" name="gender" value="female">Female
+                <input type="radio" id="gender" name="gender" value="male">Male
+                <br><br>
+                <label for="hobbies">Hobbies</label>
+                <input type="checkbox" name="hobbies" value="sports"> Sports
+                <input type="checkbox" name="hobbies" value="music"> Music
+                <input type="checkbox" name="hobbies" value="art"> Art
+                <input type="checkbox" name="hobbies" value="travel"> Travel
+                <br><br>
+                <label for ="country">Country</label>
+                <select name="country" id="country">
+                    <option>--Select Country--</option>
+                    <option value="Nigeria"></option>
+                    <option value="Namibia"></option>
+                    <option value="Rwanda">Rwanda</option>
+
+                </select>
+                <br><br>
+                <label for="description" >Describe yourself</label>
+                <textarea id="description" name="description"></textarea>
+                <br><br>
+                <button>Register</button>
+                <input type="button" value="Cancel">
+
+
+            </form>
+
+        </body>
+        
+    </html>
